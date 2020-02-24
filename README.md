@@ -2,3 +2,18 @@
 Make life easy with scripts
 
 Few scripts for easier installation and work flow
+
+
+## Install Kubernetes
+
+Run the following script to install kubernetes with kubeadm ,kubectl, kubelet. 
+
+```bash
+./install_k8s.sh
+```
+## Install the NSM infrastructure
+Considering an Ubuntu machine, run the following to install the NSM infrastructure.
+
+```bash
+./install_nsm.sh 
+```
