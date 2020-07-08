@@ -1,10 +1,6 @@
 #!/bin/bash
-echo "Installing Go"
-wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
-tar -C /usr/local -xzf go1.13.4.linux-amd64.tar.gz
-echo "export PATH=\$PATH:/usr/local/go/bin" >> ~/.bashrc
-echo "export GOPATH=\$HOME/go" >> ~/.bashrc
-source ~/.bashrc
+export SCRIPT_DIR=$(realpath $(dirname $0))
+source $SCRIPT_DIR/install_go.sh
 
 echo "Installing Helm"
 curl -L https://git.io/get_helm.sh | bash
