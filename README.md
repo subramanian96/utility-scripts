@@ -3,6 +3,12 @@ Make life easy with scripts
 
 Few scripts for easier installation and work flow
 
+## Install GO
+Install GOlang in a go with 
+
+```bash
+./install_k8s.sh
+```
 
 ## Install Kubernetes
 
