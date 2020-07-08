@@ -7,7 +7,7 @@ Few scripts for easier installation and work flow
 Install GOlang in a go with 
 
 ```bash
-./install_k8s.sh
+./install_go.sh
 ```
 
 ## Install Kubernetes
