@@ -23,3 +23,10 @@ Considering an Ubuntu machine, run the following to install the NSM infrastructu
 ```bash
 ./install_nsm.sh 
 ```
+
+## Load Docker image tars.
+Run this automated script to load multiple docker image tars in a single command.
+
+```bash
+./dockerload_multiple.sh
+```
