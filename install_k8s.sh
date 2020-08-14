@@ -1,4 +1,12 @@
 #!/bin/bash
+
+set -ex
+
+# Kubeadm init requires docker service to be up and running
+apt-get install docker.io
+service docker start 
+
+# Install K8S and its utilities 
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add 
 sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 apt-get update
