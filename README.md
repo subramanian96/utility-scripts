@@ -30,3 +30,10 @@ Run this automated script to load multiple docker image tars in a single command
 ```bash
 ./dockerload_multiple.sh
 ```
+## Uninstall K8S from your machine
+Run the following script. 
+
+```bash
+./uninstall_k8s.sh
+```
+
